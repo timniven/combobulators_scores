@@ -58,7 +58,7 @@ verse_bass = {
 
 up_chords = \chordmode {
     \time 4/4
-    c1:7 | bes1:7 | aes1:7 | g1:7
+    c1:7 | bes1:7 | aes1:7 | g1
 }
 
 up_bass = {

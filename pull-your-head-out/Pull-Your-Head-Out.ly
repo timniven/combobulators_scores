@@ -51,7 +51,7 @@ pirates_bass = {
     e16 r16 e16 g16 gis16 g16 e16 r16 r2 |
     b,16 r16 b,16 cis16 dis16 cis16 b,16 r16 r2 |
     e16 r16 e16 g16 gis16 g16 e16 r16 r2 |
-    dis2~ dis4~ dis8~ fis8~ |
+    dis2~ dis4~ dis8 fis8~ |
     fis1 |
 }
 
