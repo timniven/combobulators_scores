@@ -29,7 +29,7 @@ grange_bass = {
 % verse
 
 verse_chords = \chordmode {
-    f2 f2:9 | f2:13 f2:7 |
+    f2 f2:9 | f2:13.11 f2:7 |
 }
 
 verse_guitar = {
@@ -58,19 +58,12 @@ dangle_chords = \chordmode {
     ees1:m7 | ees2:m7 ees4:m7 ees8:m7 e8:m7 |
 }
 
+% chords reused in the guitar part
+ef = { <ees'' ges'' des'''>16 }
+
 dangle_guitar = {
-    <ees'' ges'' des'''>16 r8 
-    <ees'' ges'' des'''>16 r8
-    <ees'' ges'' des'''>16 r8
-    <ees'' ges'' des'''>16 r8
-    <ees'' ges'' des'''>16 <ees'' ges'' des'''>16 <ees'' ges'' des'''>16
-    <ees'' ges'' des'''>16 | 
-    r8
-    <ees'' ges'' des'''>16 r8
-    <ees'' ges'' des'''>16 r8
-    <ees'' ges'' des'''>16 <ees'' ges'' des'''>16 <ees'' ges'' des'''>16
-    <ees'' ges'' des'''>16 r8
-    <e'' g'' d'''>16 r16 |
+    \ef r8 \ef r8 \ef r8 \ef r8 \ef \ef \ef \ef | 
+    r8 \ef r8 \ef r8 \ef \ef \ef \ef r8 <e'' g'' d'''>16 r16 |
 }
 
 dangle_bass = {
