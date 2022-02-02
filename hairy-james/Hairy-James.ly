@@ -4,6 +4,16 @@
   title = "Hairy James"
 }
 
+% guitar chords
+
+gtef = { <g' ees' bes>8 }
+gtcm = { <g c' ees'>8 }
+gtbf = { <f bes d'>8 }
+gtg = { <g b d'>8 }
+gtf = { <c' f' a'>8 }
+gtgm = { <d' g' bes'>8 }
+gte = { <b e' gis'>8 }
+
 % hairy part
 
 hairy_chords = \chordmode {
@@ -19,14 +29,6 @@ hairy_bass = {
     }
     bes,4 bes,4 bes,8 bes,8 r8 g,8~ | g,8 g,8 g,8 b,8 d8 b,8 g,4 |
 }
-
-gtef = { <g'' ees'' bes'>8 }
-gtcm = { <g' c'' ees''>8 }
-gtbf = { <f' bes' d''>8 }
-gtg = { <g' b' d''>8 }
-gtf = { <c'' f'' a''>8 }
-gtgm = { <d'' g'' bes''>8 }
-gte = { <b' e'' gis''>8 }
 
 hairy_guitar = {
     \repeat volta 3 {
