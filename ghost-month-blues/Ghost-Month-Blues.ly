@@ -33,8 +33,8 @@ verse_chords = \chordmode {
 }
 
 verse_guitar = {
-    r4 <c'' f'' a''>16 r16 r8 r4 <c'' ees'' g''>16 r16 r8 |
-    r4 <ees'' a'' d'''>16 r16 r8 r4 <ees'' a'' c'''>16 r16 r8 |
+    r4 <c' f' a'>16 r16 r8 r4 <c' ees' g'>16 r16 r8 |
+    r4 <ees' a' d''>16 r16 r8 r4 <ees' a' c''>16 r16 r8 |
 }
 
 verse_bass = {
@@ -59,11 +59,11 @@ dangle_chords = \chordmode {
 }
 
 % chords reused in the guitar part
-ef = { <ees'' ges'' des'''>16 }
+ef = { <ees' ges' des''>16 }
 
 dangle_guitar = {
     \ef r8 \ef r8 \ef r8 \ef r8 \ef \ef \ef \ef | 
-    r8 \ef r8 \ef r8 \ef \ef \ef \ef r8 <e'' g'' d'''>16 r16 |
+    r8 \ef r8 \ef r8 \ef \ef \ef \ef r8 <e' g' d''>16 r16 |
 }
 
 dangle_bass = {
