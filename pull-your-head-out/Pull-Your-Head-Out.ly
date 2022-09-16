@@ -67,10 +67,11 @@ pirates_bass = {
 % main part
 
 chord_part = \chordmode {
-    gis1 | gis1 | gis1 | dis1:7 | dis1:7 | dis1:7 | dis1:7 | gis1
+    r1 | aes1 | aes1 | aes1 | ees1:7 | ees1:7 | ees1:7 | ees1:7 | aes1
 }
 
 bass_part = {
+    r1 |
     gis,8 r8 ais,8 r8 b,8 r8 g,8 r8 |
     gis,8 r8 ais,8 r8 b,8 r8 cis8 r8 |
     gis,8 r8 ais,8 r8 b,8 r16 b,16 cis8 d8 |
@@ -85,9 +86,9 @@ bass_part = {
     \header { piece="Main Part" }
   
     <<
-        %\new Staff \with { instrumentName = #"Bb Trumpet" } { \trumpet }
-        %\new Staff \with { instrumentName = #"Eb Barry" } { \barry }
-        %\new Staff \with { instrumentName = #"C Trombone" } { \trombone }
+        \new Staff \with { instrumentName = #"Bb Trumpet" } { \trumpet }
+        \new Staff \with { instrumentName = #"Eb Barry" } { \barry }
+        \new Staff \with { instrumentName = #"C Trombone" } { \trombone }
         \new ChordNames { \chord_part }
         \new Staff \with { instrumentName = #"Bass" } { \clef bass \bass_part }
     >>
